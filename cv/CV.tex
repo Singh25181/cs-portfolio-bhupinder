@@ -1,0 +1,98 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage[svgnames]{xcolor}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{enumitem} % For customizing lists
+
+\definecolor{primary}{HTML}{226379}
+\definecolor{secondary}{HTML}{FFFFFF}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=secondary,
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt} % Removes all indentation
+
+% Custom command for sections in the left column for better spacing control
+\newcommand{\leftsection}[2]{%
+    \color{secondary}%
+    \large\bfseries#1\hspace{0.2cm}#2\par%
+    \vspace{2mm}%
+    \textcolor{secondary}{\rule{\linewidth}{0.4pt}}%
+    \vspace{3mm}%
+}
+
+\begin{document}
+
+\begin{minipage}[t]{0.35\textwidth}
+    \colorbox{primary}{%
+        \parbox[t][25.5cm][t]{\dimexpr\textwidth-2\fboxsep}{%
+            \centering
+            \vspace{1cm}
+            \includegraphics[width=0.6\textwidth]{profile.jpg} 
+            \vspace{1cm}
+            
+            \leftsection{\faUser}{About Me}
+            \color{secondary}
+            Driven computer science student with a curiosity for emerging technologies and a commitment to continuous learning.
+            \vspace{1.5cm}
+
+            \leftsection{\faAddressBook}{Contact}
+            \color{secondary}
+            \faEnvelope\hspace{0.2cm} \href{mailto:bhupinder9545@gmail.com}{bhupinder9545@gmail.com}\par
+            \vspace{0.3cm}
+            \faMapMarkerAlt\hspace{0.2cm} Berlin, Germany
+            \vspace{1.5cm}
+
+            \leftsection{\faCog}{Skills}
+            \color{secondary}
+            \begin{itemize}[leftmargin=*, label=\textbullet, itemsep=2pt, topsep=0pt, partopsep=0pt, parsep=0pt]
+                \item Web Design
+                \item Branding
+                \item Latex
+            \end{itemize}
+            \vspace{1.5cm}
+
+            \leftsection{\faLanguage}{Language}
+            \color{secondary}
+            \begin{tabularx}{\linewidth}{@{}l X r@{}}
+                \textbullet & German & A2 \\
+                \textbullet & ENGLISH & B2 \\
+                \textbullet & HINDI & B2 \\
+            \end{tabularx}
+            \vfill % Pushes content to the top
+        }%
+    }
+\end{minipage}%
+\hspace{0.05\textwidth}%
+\begin{minipage}[t]{0.6\textwidth}
+    \vspace{0.5cm}
+    \raggedright
+    {\Huge\bfseries BHUPINDER SINGH}\\[0.5cm]
+    {\large IT STUDENT \hfill INDIAN}\\[0.2cm]
+    {\color{primary}\rule{\linewidth}{1.5pt}}
+    \vspace{1.5cm}
+
+    {\color{primary}\Huge\faGraduationCap\hspace{0.2cm}\LARGE\bfseries Education}\\[0.5cm]
+    \begin{tabularx}{\linewidth}{@{}l X@{}}
+        \textbf{2022--2023} & \textbf{SENIOR SCHOOL, INDIA} \\
+        & \textit{Non-Medical in Computer Science} \\
+        & 64\% \\[0.8cm]
+        \textbf{2024--Currently} & \textbf{GISMA UNIVERSITY OF APPLIED SCIENCE} \\
+        & \textit{Bachelor of Science in CS} \\
+    \end{tabularx}
+    \vspace{2cm}
+    
+    {\color{primary}\Huge\faChartLine\hspace{0.2cm}\LARGE\bfseries More Activities}\\[0.5cm]
+    \begin{itemize}[leftmargin=1.5em, itemsep=10pt, topsep=0pt, label={}]
+        \item \textbf{1 year of Experience as Mexican chief} in TRES AMIGOS RESTAURANT
+        \item \textbf{5 Months of Experience as Italian Chef and Pizza Baker} at HOTEL IL GIARDINO DI NIKOLAI
+    \end{itemize}
+\end{minipage}
+
+\end{document}
