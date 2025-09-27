@@ -14,5 +14,5 @@ The portfolio is hosted on GitHub Pages:
 
 ## Contact
 - 📧 Email: bhupinder9545@gmail.com  
-- 📱 Phone: xxx
+- 📱 Phone: +49 17632412496  
 - 📍 Berlin, Germany
