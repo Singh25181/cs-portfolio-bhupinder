@@ -4,7 +4,7 @@ This repository contains my **Computer Science Portfolio** for the final project
 
 ## Contents
 - **index.html** – Main portfolio webpage
-- **RESUME BHUPINDER 2.pdf** – My LaTeX-generated Curriculum Vitae
+- **CV.pdf** – My LaTeX-generated Curriculum Vitae
 - **/projects/** – Sample technical exercises
 - **/assets/** – Styles and images
 
