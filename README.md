@@ -10,7 +10,7 @@ This repository contains my **Computer Science Portfolio** for the final project
 
 ## Live Portfolio
 The portfolio is hosted on GitHub Pages:  
-👉 [https://<your-username>.github.io/cs-portfolio-bhupinder-singh/](https://singh25181.github.io/cs-portfolio-bhupinder/)
+👉 [https://singh25181.github.io/cs-portfolio-bhupinder/](https://singh25181.github.io/cs-portfolio-bhupinder/)
 
 ## Contact
 - 📧 Email: bhupinder9545@gmail.com  
